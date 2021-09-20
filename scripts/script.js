@@ -5,9 +5,9 @@ $(function() {
 
     $('#btnName').click(function() {
         userName = $('#userName').val(); 
-        // console.log(userName); 
-        // console.log($('#userName').val().length); 
-        // console.log(getStringLength(userName)); 
+         console.log(userName); 
+         console.log($('#userName').val().length); 
+         console.log(getStringLength(userName)); 
 
         nameLength = getStringLength(userName);
         nameMsg = "The Length of your name is: ";
