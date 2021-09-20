@@ -13,7 +13,7 @@ $(function() {
         nameMsg = "The Length of your name is: ";
         $('#nameOutput').append(nameMsg + nameLength + "<br/>"); 
 
-        // console.log(reverseString(userName)); 
+        console.log(reverseString(userName)); 
 
         nameReverse = reverseString(userName);
         nameMsg = "Your Name reversed letters is: ";
