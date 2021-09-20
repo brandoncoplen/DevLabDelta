@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!-- doctype declaration: we are using HTML5 -->
 
@@ -24,11 +25,18 @@
     </nav>
 
     <div class="row">
-        <div id="containment-wrapper" class="col-sm-8">
-            <img id="doge-meme-pic" src="img/many-wow.jpeg" alt="wow doge meme">
+        <div class="col-sm-8"> 
+            <div class="form-group">
+                <label for="userName">What's your name?</label>
+                <input type="text" class="form-control" id="userName">
+                <button id="btnName" class="btn btn-secondary">ok!</button>
+                          </div>
         </div>
-        <div id="wow-output" class="col-sm-4">
-            <!-- the output  -->
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div id="nameOutput"></div>
+            <button id="btnClear" class="btn btn-secondary">clear output</button>
         </div>
     </div>
 </body>
